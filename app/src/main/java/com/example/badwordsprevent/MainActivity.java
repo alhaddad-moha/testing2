@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myword = et_word.getText().toString();
-                List<String> words = Arrays.asList("يلعنك", "bad", "كلب fgjgh");
+                List<String> words = Arrays.asList("يلعنك", "bad", "كلب", "حيوان");
 
                 for (String word : words) {
                     Pattern rx = Pattern.compile("\\b" + word + "\\b", Pattern.CASE_INSENSITIVE);
